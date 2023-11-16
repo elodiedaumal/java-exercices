@@ -20,18 +20,6 @@ class Task extends Thread {
  }
 }
 
-class Task2 implements Runnable {
-
- public void run() {
-  System.out.print("\nTask 2 is starting\n");
-  for (int i = 201; i < 300; i++) {
-   System.out.print(i + " ");
-  }
-  System.out.print("\nTask 2 is done\n");
-
- }
-}
-
 public class ExcecutorServiceRunner {
  public static void main(String[] args) {
   ExecutorService executorService = Executors.newFixedThreadPool(5);
