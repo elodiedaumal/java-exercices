@@ -15,6 +15,6 @@ public class ExcecutorServiceRunner {
   System.out.print("\nTask 3 is done");
 
   System.out.print("\nMain method is done");
-
+  executorService.shutdown();
  }
 }
