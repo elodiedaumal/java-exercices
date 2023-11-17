@@ -14,7 +14,10 @@ public class FinallyRunner {
   } catch (Exception e) {
    e.printStackTrace();
   } finally {
-   scanner.close();
+   if (scanner != null) {
+    scanner.close();
+   }
+
    System.out.println("scanner is closed");
   }
   System.out.println("stop method");
