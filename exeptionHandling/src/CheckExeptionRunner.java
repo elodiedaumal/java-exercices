@@ -1,5 +1,5 @@
 public class CheckExeptionRunner {
- public static void main(String[] args) {
+ public static void main(String[] args) throws InterruptedException {
   // try {
   // someOtherMethod();
   // Thread.sleep(2000);
