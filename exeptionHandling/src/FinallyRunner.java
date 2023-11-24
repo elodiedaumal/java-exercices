@@ -8,7 +8,7 @@ public class FinallyRunner {
 
    int[] numbers = { 1, 2, 3, 4, 5 };
 
-   int number = numbers[6];
+   int number = numbers[2];
    System.out.println("Before scanner close");
 
   } catch (Exception e) {

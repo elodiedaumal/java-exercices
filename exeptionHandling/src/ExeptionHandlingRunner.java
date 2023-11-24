@@ -10,8 +10,7 @@ public class ExeptionHandlingRunner {
     }
 
     public static void method2() {
-        String str = null;
-        str.length();
+
         System.out.println("Method2 ended");
     }
 }
