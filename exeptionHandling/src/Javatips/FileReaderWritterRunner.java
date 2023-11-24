@@ -11,5 +11,9 @@ public class FileReaderWritterRunner {
     "C:\\Users\\elian\\Desktop\\java\\firstjavacode\\studentsmarks\\exeptionHandling\\src\\Javatips\\resources\\sample.txt");
   String fileContent = Files.readString(path);
   System.out.println(fileContent);
+  String newFileContent = fileContent.replace("line", "text");
+  Path newPath = Paths.get(
+    "C:\\Users\\elian\\Desktop\\java\\firstjavacode\\studentsmarks\\exeptionHandling\\src\\Javatips\\resources\\newsample.txt");
+  Files.writeString(newPath, newFileContent);
  }
 }
